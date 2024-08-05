@@ -36,7 +36,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
         Product product = productList.get(position);
         holder.bind(product);
 
-        // Apply animation
+
         holder.itemView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.item_slide_in));
     }
 

@@ -41,7 +41,7 @@
                 android:textSize="16sp"
                 android:textColor="@color/black"/>
 
-            <!-- You can add more details here like price, category, etc. -->
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

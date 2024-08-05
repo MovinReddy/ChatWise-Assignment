@@ -23,7 +23,7 @@ public class ProductDetailActivity extends AppCompatActivity {
         titleTextView = findViewById(R.id.product_detail_title);
         descriptionTextView = findViewById(R.id.product_detail_description);
 
-        // Apply slide-up animation
+
         CardView cardView = findViewById(R.id.card);
         Animation slideUp = AnimationUtils.loadAnimation(this, R.anim.slide_up);
         cardView.startAnimation(slideUp);

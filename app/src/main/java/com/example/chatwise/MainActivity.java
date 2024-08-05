@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Apply fade-in animation
+
         TextView tv  = findViewById(R.id.welcome);
         Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.item_fade_in);
         tv.startAnimation(fadeIn);
