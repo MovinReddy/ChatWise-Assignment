@@ -47,7 +47,7 @@ public class ProductList extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<ProductsResponse> call, Throwable t) {
-                // Handle failure
+
             }
         });
     }
